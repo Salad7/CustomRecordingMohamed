@@ -1,4 +1,8 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
+
+group='com.github.jitpack'
+
 
 android {
     compileSdkVersion 26
@@ -28,6 +32,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.kailashdabhi:om-recorder:1.1.0'
     compile 'com.cleveroad:audiovisualization:1.0.0'
-    compile 'com.github.Salad7:CustomRecordingMohamed:62aefe7b70'
 
 }
